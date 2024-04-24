@@ -148,19 +148,19 @@ private static Logger logger = LoggerFactory.getLogger(AppHandler.class);
 		
 		switch(menuOption) {
 			case "1":
-				ProductHandler.runAddProduct();
+				AddProductHandler.runAddProduct();
 				break;
 			case "2":
 				//runDeleteProduct();
 				break;
 			case "3":
-				//runViewCatalogue();
+				StockHandler.runViewCatalogue();
 				break;
 			case "4":
-				//runViewStock();
+				StockHandler.runViewStock();
 				break;
 			case "5":
-				//runViewStockValue();
+				StockHandler.runViewStockValue();
 				break;
 			case "6":
 				//runCreateNewTicket();
