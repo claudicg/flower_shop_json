@@ -151,7 +151,7 @@ private static Logger logger = LoggerFactory.getLogger(AppHandler.class);
 				AddProductHandler.runAddProduct();
 				break;
 			case "2":
-				//runDeleteProduct();
+				DeleteProductHandler.runDeleteProduct();
 				break;
 			case "3":
 				StockHandler.runViewCatalogue();
