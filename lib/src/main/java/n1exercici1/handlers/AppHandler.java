@@ -18,7 +18,7 @@ import n1exercici1.utis.Validations;
 
 public class AppHandler {
 	
-private static Logger logger = LoggerFactory.getLogger(AppHandler.class);
+	private static Logger logger = LoggerFactory.getLogger(AppHandler.class);
 	
 	private static Scanner scanner;
 	private static List<String> colours;
@@ -157,19 +157,22 @@ private static Logger logger = LoggerFactory.getLogger(AppHandler.class);
 				StockHandler.runViewCatalogue();
 				break;
 			case "4":
-				StockHandler.runViewStock();
+				StockHandler.runAddProductsToStock();
 				break;
 			case "5":
-				StockHandler.runViewStockValue();
+				StockHandler.runViewStock();
 				break;
 			case "6":
-				//runCreateNewTicket();
+				StockHandler.runViewStockValue();
 				break;
 			case "7":
-				//runViewSales();
+				CreateTicketHandler.runCreateNewTicket();
 				break;
 			case "8":
-				//runViewEarnings();
+				TicketHandler.runViewSales();
+				break;
+			case "9":
+				TicketHandler.runViewEarnings();
 				break;
 			case "0":
 				runExitFlowerShop();

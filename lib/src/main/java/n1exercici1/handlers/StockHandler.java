@@ -16,11 +16,12 @@ import n1exercici1.factories.TreeFactory;
 import n1exercici1.singletons.FlowerShopSingleton;
 import n1exercici1.singletons.StockSingleton;
 import n1exercici1.utis.Constants;
+import n1exercici1.utis.Validations;
 
 
 public class StockHandler {
 	
-private static Logger logger = LoggerFactory.getLogger(StockHandler.class);
+	private static Logger logger = LoggerFactory.getLogger(StockHandler.class);
 	
 	public static void createTree(String name, double sellPrice, double costPrice, int stock, String height) {
 		
@@ -125,6 +126,36 @@ private static Logger logger = LoggerFactory.getLogger(StockHandler.class);
 		
 		return sb.toString();
 		
+	}
+	
+	public static void runAddProductsToStock() {
+		
+		String productName = "";
+		do {
+			
+			AppHandler.printText(TextMenuHandler.getEnterValidProductName());
+			productName = AppHandler.readConsoleInput().trim();
+			
+		} while(!Validations.isValidProductName(productName));
+		
+		Product product = findProductByName(productName);
+		if(product != null) {
+			
+			String stockToBeAdded = "";
+			do {
+				
+				AppHandler.printText(TextMenuHandler.getEnterValidStock());
+				stockToBeAdded = AppHandler.readConsoleInput().trim();
+				
+				product.setStock(Integer.parseInt(stockToBeAdded) + product.getStock());
+				recalculateTotalStockValueOnAdd(Integer.parseInt(stockToBeAdded), product.getCostPrice());
+				AppHandler.printText(Constants.Menus.STOCK_UPDATE);
+				
+			} while(!Validations.isNaturalNumber(stockToBeAdded));
+			
+		}else {
+			AppHandler.printText(Constants.Menus.PRODUCT_NOT_FOUND);
+		}	
 	}
 	
 	public static Product findProductByName(String name) {

@@ -32,14 +32,16 @@ public class Constants {
 		public static final String CREATE_FS_MENU = "\n\nFirst time using the app?\nLet's create a new flower shop.)";
 		public static final String VALID_NAME = "\nPlease, enter a valid name:\n";
 		public static final String CREATED_FS = "\n>>> Good job! The shop is now up and running.\n\n";
-		public static final String MAIN_MENU = "\n\n1. Add Product."
+		public static final String MAIN_MENU = "==== Flower Shop Menu ===="
+												+ "\n\n1. Add Product."
 												+ "\n2. Delete Product."
 												+ "\n3. View Catalogue."
-												+ "\n4. View Stock."
-												+ "\n5. View Stock Value."
-												+ "\n6. Create New Ticket."
-												+ "\n7. View Sales."
-												+ "\n8. View Earnings."
+												+ "\n4. Add Products to Stock."
+												+ "\n5. View Stock."
+												+ "\n6. View Stock Value."
+												+ "\n7. Create New Ticket."
+												+ "\n8. View Sales."
+												+ "\n9. View Earnings."
 												+ "\n0. Exit.\n\n";
 		public static final String VALID_OPTION = "\nPlease, enter a valid option:\n";
 		public static final String DATE_MENU = "\n\nThe date to display sales since is required.\nThe date must be valid and have format yyyy-MM-dd.\n";
@@ -52,7 +54,8 @@ public class Constants {
 		public static final String STOCK = "\nEnter a valid stock:\n";
 		public static final String HEIGHT = "\nEnter a valid height (in centimetres):\n";
 		public static final String COLOUR = "\nEnter a valid colour:\n";
-		public static final String PRODUCT_EXISTS = "\n>>> The product already exists.\n";	
+		public static final String PRODUCT_EXISTS = "\n>>> The product already exists.\n";
+		public static final String STOCK_UPDATE = "\n>>> The stock has been updated.\n";
 		public static final String PRODUCT_ADDED = "\n>>> The new product was added.\n\n";
 		public static final String STOCK_VALUE = "\n>>> The total stock value of the shop is ";
 		public static final String PRODUCT_ID = "\nEnter the product id of the product to be deleted:\n";
@@ -64,9 +67,9 @@ public class Constants {
 		public static final String SUCCESSFUL = "\n>>> The purchase was successful. Ticket was saved.\n";
 		public static final String NOT_SUCCESSFUL = "\n>>> Ticket with not products. The purchase was not successful. Ticket was not saved.\n";
 		public static final String NO_PRODUCTS = "\n>>> The ticket has no products.\n";
-		public static final String PRODUCT_NOT_FOUND = "\n>>> Could not find a product";
+		public static final String PRODUCT_NOT_FOUND = "\n>>> Could not find the product.";
 		public static final String QUANTITY = "\nEnter a valid quantity:\n";
-		public static final String INSUFFICIENT_STOCK = "\n>>> Insufficient stock of this profuct.\n";
+		public static final String INSUFFICIENT_STOCK = "\n>>> Insufficient stock of this product.\n";
 	}
 	
 	public class Headings {

@@ -151,5 +151,4 @@ public class TextMenuHandler {
 	public static String getInsufficientStockMessage() {
 		return Constants.Menus.INSUFFICIENT_STOCK;
 	}
-
 }

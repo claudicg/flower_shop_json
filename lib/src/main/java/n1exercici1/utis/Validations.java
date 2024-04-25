@@ -28,9 +28,9 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 		return productName.matches("^[a-zA-Záéíóúüïñç\\s]+$");
 	}
 	
-	//main menu options: 0 to 8
+	//main menu options: 0 to 9
 	public static boolean isValidOption(String option) {
-		return option.matches("^[0-8]{1}$");
+		return option.matches("^[0-9]{1}$");
 	}
 	
 	//number: 0 + all natural numbers

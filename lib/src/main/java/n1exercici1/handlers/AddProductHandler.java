@@ -260,6 +260,5 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 		AppHandler.printText(TextMenuHandler.getExitCurrentMenuMessage());
 		
 	}
-
 		
 }

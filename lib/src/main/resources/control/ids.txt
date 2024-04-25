@@ -1,2 +1,2 @@
-ticket:0
-product:0
+ticket:1
+product:1
