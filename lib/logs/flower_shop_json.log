@@ -1,0 +1,36 @@
+2024-04-28 15:44:44.221 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readColours :: Reading from file colours.txt
+2024-04-28 15:44:44.224 INFO  n1exercici1.handlers.AppHandler  - AppHandler :: runFlowerShop :: __________ Flower Shop App running...
+2024-04-28 15:44:44.224 INFO  n1exercici1.handlers.AppHandler  - AppHandler :: loadFlowerShopSaves :: Loading saves...
+2024-04-28 15:44:44.225 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readFlowerShopFile :: Reading from file flower-shop.json
+2024-04-28 15:44:44.426 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readIds :: Reading from file ids.txt
+2024-04-28 15:44:44.435 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readSalesFile :: Reading from file sales.json
+2024-04-28 15:44:44.453 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readStockFile :: Reading from file stock.json
+2024-04-28 15:44:51.609 INFO  n1exercici1.handlers.AddProductHandler  - AddProductHandler :: runAddProduct :: About to add a new product.
+2024-04-28 15:45:26.699 INFO  n1exercici1.handlers.StockHandler  - StockHandler :: createDecoration :: New decoration created.
+2024-04-28 15:46:13.753 INFO  n1exercici1.handlers.StockHandler  - StockHandler :: createFlower :: New flower created.
+2024-04-28 15:46:18.150 INFO  n1exercici1.handlers.AddProductHandler  - AddProductHandler :: runExitProductOption :: Exiting the add product menu.
+2024-04-28 15:46:24.090 INFO  n1exercici1.handlers.StockHandler  - StockHandler :: runViewCatalogue :: About to display all the products.
+2024-04-28 15:47:00.019 INFO  n1exercici1.handlers.AppHandler  - AppHandler :: runExitFlowerShop :: Flower Shop App shutting down...
+2024-04-28 15:47:00.019 INFO  n1exercici1.io.FileManager  - FileManager :: deleteFile :: Deleting file flower-shop.json
+2024-04-28 15:47:00.021 INFO  n1exercici1.io.FlowerShopFileWriter  - FlowerShopFileWriter :: writeToJsonFile :: Writing to file flower-shop.json
+2024-04-28 15:47:00.039 INFO  n1exercici1.io.FileManager  - FileManager :: deleteFile :: Deleting file ids.txt
+2024-04-28 15:47:00.040 INFO  n1exercici1.io.FileManager  - FileManager :: createFile :: Creating file ids.txt
+2024-04-28 15:47:00.042 INFO  n1exercici1.io.FlowerShopFileWriter  - FlowerShopFileWriter :: writeIdToFile :: Writing to file ids.txt
+2024-04-28 15:47:00.042 INFO  n1exercici1.io.FileManager  - FileManager :: deleteFile :: Deleting file sales.json
+2024-04-28 15:47:00.043 INFO  n1exercici1.io.FlowerShopFileWriter  - FlowerShopFileWriter :: writeToJsonFile :: Writing to file sales.json
+2024-04-28 15:47:00.049 INFO  n1exercici1.io.FlowerShopFileWriter  - FlowerShopFileWriter :: writeIdToFile :: Writing to file ids.txt
+2024-04-28 15:47:00.050 INFO  n1exercici1.io.FileManager  - FileManager :: deleteFile :: Deleting file stock.json
+2024-04-28 15:47:00.050 INFO  n1exercici1.io.FlowerShopFileWriter  - FlowerShopFileWriter :: writeToJsonFile :: Writing to file stock.json
+2024-04-28 15:47:00.054 INFO  n1exercici1.io.FlowerShopFileWriter  - FlowerShopFileWriter :: writeToJsonFile :: Writing to file stock.json
+2024-04-28 15:47:00.055 INFO  n1exercici1.io.FlowerShopFileWriter  - FlowerShopFileWriter :: writeToJsonFile :: Writing to file stock.json
+2024-04-28 15:48:13.445 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readColours :: Reading from file colours.txt
+2024-04-28 15:48:13.448 INFO  n1exercici1.handlers.AppHandler  - AppHandler :: runFlowerShop :: __________ Flower Shop App running...
+2024-04-28 15:48:13.448 INFO  n1exercici1.handlers.AppHandler  - AppHandler :: loadFlowerShopSaves :: Loading saves...
+2024-04-28 15:48:13.448 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readFlowerShopFile :: Reading from file flower-shop.json
+2024-04-28 15:48:13.612 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readIds :: Reading from file ids.txt
+2024-04-28 15:48:13.619 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readSalesFile :: Reading from file sales.json
+2024-04-28 15:48:13.632 INFO  n1exercici1.io.FlowerShopFileReader  - FlowerShopFileReader :: readStockFile :: Reading from file stock.json
+2024-04-28 15:48:22.503 INFO  n1exercici1.handlers.StockHandler  - StockHandler :: runViewStockValue :: About to display the total stock value.
+2024-04-28 15:48:30.322 INFO  n1exercici1.handlers.StockHandler  - StockHandler :: runViewStock :: About to display the total stock of the shop.
+2024-04-28 15:48:36.779 INFO  n1exercici1.handlers.TicketHandler  - TicketHandler :: runViewSales :: About to display the tickets created since the given date.
+2024-04-28 15:49:16.666 INFO  n1exercici1.handlers.TicketHandler  - ViewEarningsHandler :: runViewEarnings :: About to display the total earnings.

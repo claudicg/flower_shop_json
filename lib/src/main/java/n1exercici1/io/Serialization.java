@@ -18,7 +18,9 @@ import n1exercici1.utis.Constants;
 
 public class Serialization {
 
-private static Logger logger = LoggerFactory.getLogger(Serialization.class);
+	private static Logger logger = LoggerFactory.getLogger(Serialization.class);
+
+//--- serialization -----------------------------------------------------------------------------------
 	
 	public static String mapObjectToJson(Object object) {
 		
@@ -33,6 +35,8 @@ private static Logger logger = LoggerFactory.getLogger(Serialization.class);
 		return json;
 		
 	}
+
+//--- deserialization ----------------------------------------------------------------------------------
 	
 	public static FlowerShop mapJsonToFlowerShop(String str) {
 		

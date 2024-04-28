@@ -9,7 +9,7 @@ import n1exercici1.utis.Validations;
 
 public class DeleteProductHandler {
 
-private static Logger logger = LoggerFactory.getLogger(DeleteProductHandler.class);
+	private static Logger logger = LoggerFactory.getLogger(DeleteProductHandler.class);
 	
 	public static void runDeleteProduct() {
 		

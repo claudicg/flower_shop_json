@@ -16,7 +16,7 @@ import n1exercici1.enums.MaterialsEnum;
 
 public class Utils {
 
-private static Logger logger = LoggerFactory.getLogger(Utils.class);
+	private static Logger logger = LoggerFactory.getLogger(Utils.class);
 	
 	public static String getCurrentDateTime() {
 		return new SimpleDateFormat(DateFormatEnum.TIMESTAMP.getFormat()).format(new Date());

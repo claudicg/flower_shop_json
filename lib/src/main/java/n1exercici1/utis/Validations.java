@@ -20,12 +20,12 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 	
 	//valid shop name: alphanumeric + some special characters + white spaces
 	public static boolean isValidName(String name) {
-		return name.matches("^[a-zA-Z0-9áéíóúüïñç\\s]+$");
+		return name.matches("^[a-zA-Z0-9áéíóúÁÉÍÓÚüÜñÑ\\s]+$");
 	}
 	
 	//valid product name: alpha + some special characters + white spaces
 	public static boolean isValidProductName(String productName) {
-		return productName.matches("^[a-zA-Záéíóúüïñç\\s]+$");
+		return productName.matches("^[a-zA-Z0-9áéíóúÁÉÍÓÚüÜñÑ\\s]+$");
 	}
 	
 	//main menu options: 0 to 9

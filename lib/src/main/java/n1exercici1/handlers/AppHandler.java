@@ -90,7 +90,7 @@ public class AppHandler {
 	}
 	
 	private void clearAllFiles() {
-		
+		//File reset.
 		FileManager.deleteFile(Constants.Files.PATH_CONTROL, Constants.Files.IDS, true);
 		FileManager.deleteFile(Constants.Files.PATH_PERSISTENCE, Constants.Files.FLOWER_SHOP, true);
 		FileManager.deleteFile(Constants.Files.PATH_PERSISTENCE, Constants.Files.SALES, true);
