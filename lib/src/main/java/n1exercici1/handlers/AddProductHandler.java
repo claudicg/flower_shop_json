@@ -64,7 +64,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 	
 	private static void runCreateTree() {
 		
-		//name
+	
 		String treeName = "";
 		do {
 			
@@ -77,7 +77,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 
 		if(product == null) {
 			
-			//sell price
+			
 			String sellPrice = "";
 			do {
 				
@@ -86,7 +86,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isValidPrice(sellPrice));
 			
-			//cost price
+			
 			String costPrice = "";
 			do {
 				
@@ -95,7 +95,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isValidPrice(costPrice));
 			
-			//stock
+			
 			String stock = "";
 			do {
 				
@@ -104,7 +104,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isNaturalNumber(stock));
 			
-			//height
+			
 			String height = "";
 			do {
 				
@@ -113,7 +113,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isNaturalNumber(height));
 			
-			//create product
+			
 			StockHandler.createTree(treeName, Double.parseDouble(sellPrice), Double.parseDouble(costPrice), Integer.parseInt(stock), height);
 			
 			AppHandler.printText(TextMenuHandler.getProductAddedMessage());
@@ -128,7 +128,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 	
 	private static void runCreateFlower() {
 		
-		//name
+		
 		String flowerName = "";
 		do {
 			
@@ -141,7 +141,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 
 		if(product == null) {
 			
-			//sell price
+			
 			String sellPrice = "";
 			do {
 				
@@ -150,7 +150,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isValidPrice(sellPrice));
 			
-			//cost price
+			
 			String costPrice = "";
 			do {
 				
@@ -159,7 +159,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isValidPrice(costPrice));
 			
-			//stock
+			
 			String stock = "";
 			do {
 				
@@ -168,7 +168,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isNaturalNumber(stock));
 			
-			//colour
+			
 			String colour = "";
 			do {
 				
@@ -192,7 +192,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 	
 	private static void runCreateDecoration() {
 		
-		//name
+		
 		String decorationName = "";
 		do {
 			
@@ -205,7 +205,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 
 		if(product == null) {
 			
-			//sell price
+			
 			String sellPrice = "";
 			do {
 				
@@ -214,7 +214,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isValidPrice(sellPrice));
 			
-			//cost price
+			
 			String costPrice = "";
 			do {
 				
@@ -223,7 +223,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isValidPrice(costPrice));
 			
-			//stock
+			
 			String stock = "";
 			do {
 				
@@ -232,7 +232,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isNaturalNumber(stock));
 			
-			//material
+			
 			String material = "";
 			do {
 				
@@ -241,7 +241,7 @@ private static Logger logger = LoggerFactory.getLogger(AddProductHandler.class);
 				
 			} while(!Validations.isValidMaterialOption(material));
 			
-			//create product
+			
 			StockHandler.createDecoration(decorationName, Double.parseDouble(sellPrice), Double.parseDouble(costPrice), Integer.parseInt(stock), Utils.getMaterial(material));
 			
 			AppHandler.printText(TextMenuHandler.getProductAddedMessage());

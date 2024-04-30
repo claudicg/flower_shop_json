@@ -28,7 +28,7 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 		return productName.matches("^[a-zA-Z0-9áéíóúÁÉÍÓÚüÜñÑ\\s]+$");
 	}
 	
-	//main menu options: 0 to 9
+	
 	public static boolean isValidOption(String option) {
 		return option.matches("^[0-9]{1}$");
 	}
@@ -38,12 +38,12 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 		return option.matches("^[0-9]+$");
 	}
 	
-	//valid price: 0 + all natural numbers . 0 + all natural numbers
+
 	public static boolean isValidPrice(String price) {
 		return price.matches("^([0-9]+|[0-9]+.{1}[0-9]+)$");
 	}
 	
-	//valid product option: 0 to product type enum size
+	
 	public static boolean isValidProductOption(String option) {
 		
 		boolean validOption = false;
@@ -62,12 +62,12 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 		
 	}
 	
-	//natural numbers
+	
 	public static boolean isNaturalNumber(String number) {
 		return number.matches("^[1-9]{1}[0-9]*$");
 	}
 	
-	//date format: yyyy-MM-dd HH:mm:ss
+	
 	public static boolean isValidDate(String strDate) {
 		
 		SimpleDateFormat sdf = new SimpleDateFormat(DateFormatEnum.TIMESTAMP.getFormat());
@@ -92,7 +92,7 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 		
 	}
 	
-	//valid colour: a colour contained in the colours file (add more if required)
+	
 	public static boolean isValidColour(String colour, List<String> colours) {
 		return colours.contains(colour.trim().toUpperCase());
 	}
@@ -115,7 +115,6 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 		
 	}
 	
-	//ticket menu options: 0 to 2
 	public static boolean isValidTicketOption(String ticketMenuOption) {
 		return ticketMenuOption.matches("^[0-2]{1}$");
 	}
