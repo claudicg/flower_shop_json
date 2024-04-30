@@ -65,7 +65,7 @@ public class Constants {
 												+ "\n2. Delete Product."
 												+ "\n0. Exit.\n\n";
 		public static final String SUCCESSFUL = "\n>>> The purchase was successful. Ticket was saved.\n";
-		public static final String NOT_SUCCESSFUL = "\n>>> Ticket with not products. The purchase was not successful. Ticket was not saved.\n";
+		public static final String NOT_SUCCESSFUL = "\n>>> Ticket with not products. The purchase was not successful. Ticket was saved null.\n";
 		public static final String NO_PRODUCTS = "\n>>> The ticket has no products.\n";
 		public static final String PRODUCT_NOT_FOUND = "\n>>> Could not find the product.";
 		public static final String QUANTITY = "\nEnter a valid quantity:\n";

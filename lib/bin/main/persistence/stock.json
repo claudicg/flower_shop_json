@@ -1,3 +1,5 @@
 [{"type":"Tree","productId":1,"name":"olivo","sellPrice":200.0,"costPrice":100.0,"stock":3,"height":230},
 {"type":"Decoration","productId":2,"name":"Maceta","sellPrice":25.0,"costPrice":10.0,"stock":5,"material":"plastic"},
-{"type":"Flower","productId":3,"name":"Margarita","sellPrice":4.0,"costPrice":2.0,"stock":3,"colour":"white"}]
+{"type":"Flower","productId":3,"name":"Margarita","sellPrice":4.0,"costPrice":2.0,"stock":1,"colour":"white"},
+{"type":"Flower","productId":4,"name":"rosa","sellPrice":5.0,"costPrice":3.0,"stock":20,"colour":"red"},
+{"type":"Flower","productId":5,"name":"tulipa","sellPrice":6.0,"costPrice":2.0,"stock":4,"colour":"yellow"}]
