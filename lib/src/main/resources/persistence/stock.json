@@ -2,4 +2,5 @@
 {"type":"Decoration","productId":2,"name":"Maceta","sellPrice":25.0,"costPrice":10.0,"stock":5,"material":"plastic"},
 {"type":"Flower","productId":3,"name":"Margarita","sellPrice":4.0,"costPrice":2.0,"stock":1,"colour":"white"},
 {"type":"Flower","productId":4,"name":"rosa","sellPrice":5.0,"costPrice":3.0,"stock":20,"colour":"red"},
-{"type":"Flower","productId":5,"name":"tulipa","sellPrice":6.0,"costPrice":2.0,"stock":4,"colour":"yellow"}]
+{"type":"Flower","productId":5,"name":"tulipa","sellPrice":6.0,"costPrice":2.0,"stock":4,"colour":"yellow"},
+{"type":"Flower","productId":6,"name":"narciso","sellPrice":2.6,"costPrice":1.3,"stock":23,"colour":"white"}]

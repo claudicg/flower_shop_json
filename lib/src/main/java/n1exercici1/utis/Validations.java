@@ -25,7 +25,7 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 	
 	//valid product name: alpha + some special characters + white spaces
 	public static boolean isValidProductName(String productName) {
-		return productName.matches("^[a-zA-Z0-9áéíóúÁÉÍÓÚüÜñÑ\\s]+$");
+		return productName.matches("^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ\\s]+$");
 	}
 	
 	
@@ -40,7 +40,8 @@ private static Logger logger = LoggerFactory.getLogger(Validations.class);
 	
 
 	public static boolean isValidPrice(String price) {
-		return price.matches("^([0-9]+|[0-9]+.{1}[0-9]+)$");
+		
+		return price.matches("^[-+]?[0-9]*\\.?[0-9]+$");
 	}
 	
 	
